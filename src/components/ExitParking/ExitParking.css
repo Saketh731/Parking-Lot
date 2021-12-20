@@ -1,0 +1,36 @@
+.exit-container{
+    margin: 3px;
+}
+
+.vehicle-data-table table{
+    padding: 30px;
+    border: 1px solid #666666;
+}
+
+.exit-vehicle-details{
+    width: 100%;    
+}
+
+.exit-vehicle-details input{
+    height: 40px;
+    margin-right: 50px;
+    width: 250px;
+}
+
+@media(max-width:720px){
+
+    .exit-vehicle-details input, .exit-vehicle-details button, .finished-exit button, .vehicle-data-table{
+        width: 100%;
+    }
+
+    .vehicle-data-table{
+        overflow-x: auto;
+    }
+
+    .exit-vehicle-details input{
+        height: 40px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+}

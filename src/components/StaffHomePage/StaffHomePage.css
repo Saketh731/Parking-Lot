@@ -1,0 +1,67 @@
+.staff-page{
+    height: 100vh;
+}
+
+.vehicle-data-table{
+    margin-top: 60px;
+}
+
+.vehicle-data-table tr, .vehicle-data-table td, .vehicle-data-table th{
+    padding: 30px;
+    border: 1px solid #666666;
+}
+
+.vehicle-data-table th{
+    background-color: #f2f2f2;
+}
+
+.vehicle-data-table th:hover{
+    background-color: #ddd;
+}
+
+.staff-choices{
+    margin-top: 5%;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.help-vehicle{
+    width: 500px;
+}
+
+.vehicle-input-field{
+    width: 500px;
+}
+
+.vehicle-input-field button{
+    margin-left: 20px;
+}
+
+.staff-choices button{
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.staff-choices{
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width:720px){
+    .staff-page{
+        margin: 2px;
+    }
+    .staff-choices, .vehicle-input-field, .help-vehicle {
+      width: 100%;
+    }
+    .staff-choices button{
+        margin-top: 20px;
+        padding: 0.5px;
+    }
+    .table-overflow{
+        width: 100%;
+    }
+    .table-overflow{
+        overflow-x: auto;
+    }
+  }
